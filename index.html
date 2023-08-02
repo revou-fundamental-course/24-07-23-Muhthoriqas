@@ -1,11 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script src="./js/script.js" defer></script>
-    <title>Travel | Thoriq AS</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your Trusted Travel Agent's. Your happiness is our happiness." />
+  <meta name="keywords" content="Travel, Travel Agency, Vacation, Holiday, Tours, Adventure" />
+  <meta name="author" content="Muhammad Thoriq Ali Said" />
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.webp" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="./assets/apple-touch-icon-192x192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="./assets/apple-touch-icon-512x512.png" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <script src="./js/script.js" defer></script>
+  <title>Travel | Thoriq AS</title>
+</head>
+
+<body>
+  <!-- Navbar Section Start -->
+  <header class="header">
+    <div class="logo"><img src="./assets/logo.webp" alt="Header Logo"></div>
+    <nav class="nav">
+      <a href="#home" class="nav-links">Home</a>
+      <a href="#ourpackage" class="nav-links">Our Package</a>
+      <a href="#call" class="nav-links">Call Us</a>
+    </nav>
+    <div class="bars" id="bars">
+      <img src="./assets/bars-solid.svg" alt="Responsive">
+    </div>
+    <div class="dropdown-menu" id="dropdown-menu">
+      <a href="#home" class="nav-links">Home</a>
+      <a href="#ourpackage" class="nav-links">Our Package</a>
+      <a href="#call" class="nav-links">Call Us</a>
+    </div>
+  </header>
+  <!-- Navbar Section End -->
+
+  <!-- Main Section Start -->
+  <main>
+    <section class="banner" id="home">
+      <div class="headline">
+        <h1>Your Trusted Travel Agent's</h1>
+        <h3>Your hapinness is our hapinness</h3>
+      </div>
+      <!-- Banner Section Start -->
+      <div class="banner-container">
+        <div class="banner-left">
+          <div class="banner-slide">
+            <img class="slides-image" id="slides-image" src="./assets/banner1.webp" alt="Banner Image 1" />
+            <img class="slides-image" id="slides-image" src="./assets/banner2.webp" alt="Banner Image 2" />
+            <img class="slides-image" id="slides-image" src="./assets/banner3.webp" alt="Banner Image 3" />
+            <button class="slide-button left" id="buttonleft">
+              < </button>
+                <button class="slide-button right" id="buttonright">></button>
+          </div>
+          <div class="caption">
+            <p>"Vacation Becomes Incredibly Enjoyable With Travel Agency."</p>
+            <div class="profile">
+              <img src="./assets/user-solid.svg" alt="User Profile Image">
+              <div class="profile-image"></div>
+              <div>
+                <h2>Florence Hughes</h2>
+                <p>Housewife, 28</p>
+              </div>
+            </div>
+          </div>
+          <div class="blanks"></div>
+          <div class="service-container">
+            <h4 class="service-description">
+              Unlock the Ultimate Travel Experience: Discover Hassle-Free Travel Planning with Our Seasoned Expert
+              Agents and Embark on Unforgettable Adventures Around the Globe
+            </h4>
+            <div class="all-service-list">
+              <div class="service-list">
+                <span class="circle ">1</span>
+                <p>Personalized Itineraries: Enjoy custom-tailored travel plans
+                  that suit your preferences and interests perfectly.</p>
+              </div>
+              <div class="service-list">
+                <span class="circle ">2</span>
+                <p>Time-Saving Assistance: Let our agents handle all the details, saving you
+                  precious time and effort.</p>
+              </div>
+              <div class="service-list">
+                <span class="circle">3</span>
+                <p>Insider Recommendations: Benefit from our local insights and
+                  recommendations for an authentic travel experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner-right">
+          <div class="contact-card">
+            <div class="contact-header">
+              <h3 class="contact-title">Contact Us</h3>
+              <p class="contact-info">
+                Our sales team will contact you within 24 hours of receiving your information.
+              </p>
+            </div>
+            <form onsubmit="return validateForm()" action="" class="contact-form">
+              <label for="name" class="contact-label">Your name: </label>
+              <input type="text" id="name" placeholder="First and last name" class="contact-input" />
+              <label for="email" class="contact-label">Your email: </label>
+              <input type="email" id="email" placeholder="example@email.com" class="contact-input" />
+              <label for="travel-select" class="contact-label">What are you interested in?</label>
+              <select id="travel-select" name="map" class="contact-dropdown">
+                <option value="default" class="disable" disabled selected>
+                  Select option
+                </option>
+                <option value="Bali">Bali</option>
+                <option value="Japan">Japan</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Surabaya">Surabaya</option>
+              </select>
+              <button class="contact-button" type="submit">Send</button>
+            </form>
+            <p id="error-msg"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Ourpackage Section Start -->
+    <div class="ourpackage" id="ourpackage">
+      <h2>Our Package</h2>
+    </div>
+    <section class="package-list">
+      <div class="package-list-container">
+        <div class="package-card">
+          <div class="package-card-content">
+            <div class="package-card-logo">
+              <img src="./assets/star-solid.svg" alt="Star Logo">
+            </div>
+            <div class="package-card-text">
+              <h2>Bali</h2>
+              <p>
+                Explore the enchanting island of Bali, known for its pristine beaches, lush rice terraces, and vibrant
+                culture.
+              </p>
+            </div>
+            <img src="./assets/bali.webp" alt="Bali Image" />
+          </div>
+          <div class="package-card-content">
+            <div class="package-card-logo">
+              <img src="./assets/star-solid.svg" alt="Star Logo">
+            </div>
+            <div class="package-card-text">
+              <h2>Japan</h2>
+              <p>
+                Discover the Land of the Rising Sun, Japan, a country that seamlessly combines tradition and modernity.
+              </p>
+            </div>
+            <img src="./assets/japan.webp" alt="Japan Image" />
+          </div>
+          <div class="package-card-content">
+            <div class="package-card-logo">
+              <img src="./assets/star-solid.svg" alt="Star Logo">
+            </div>
+            <div class="package-card-text">
+              <h2>Singapore</h2>
+              <p>
+                Experience the cosmopolitan city of Singapore, a melting pot of cultures, impressive skyscrapers, and
+                delectable street food.
+              </p>
+            </div>
+            <img src="./assets/singapore.webp" alt="Singapore Image" />
+          </div>
+        </div>
+        <div class="second-blanks"></div>
+        <div class="package-card">
+          <div class="package-card-content">
+            <div class="package-card-logo">
+              <img src="./assets/fire-solid.svg" alt="Fire Logo">
+            </div>
+            <div class="package-card-text">
+              <h2>Bandung</h2>
+              <p>
+                Explore the beautiful city of Bandung, stunning landscapes and
+                vibrant shopping scene.
+              </p>
+            </div>
+            <img src="./assets/bandung.webp" alt="Bandung Image" />
+          </div>
+          <div class="package-card-content">
+            <div class="package-card-logo">
+              <img src="./assets/fire-solid.svg" alt="Fire Logo">
+            </div>
+            <div class="package-card-text">
+              <h2>Surabaya</h2>
+              <p>
+                Embark on a journey to Surabaya, a land of ancient history, majestic landmarks, and diverse landscapes.
+              </p>
+            </div>
+            <img src="./assets/Surabaya.webp" alt="Surabaya Image" />
+          </div>
+          <div class="package-card-content">
+            <div class="package-card-logo">
+              <img src="./assets/fire-solid.svg" alt="Fire Logo">
+            </div>
+            <div class="package-card-text">
+              <h2>More Destinations</h2>
+              <p>
+                Discover even more incredible destinations with our travel packages.
+              </p>
+            </div>
+            <img src="./assets/more.webp" alt="More Travel Images" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ourpackage Section Start -->
+
+    <!-- Closing Section Start -->
+    <section class="closing" id="call">
+      <div class="closing-content">
+        <h2>Experience Unparalleled Travel Experiences with Our Expert Guidance</h2>
+        <p>
+          Say goodbye to travel hassles and let our expert agents handle all the details. Personalized itineraries,
+          local insights, and seamless journeys await.Immerse yourself in local culture with our insider insights and
+          recommendations. Embark on extraordinary adventures and create cherished memories
+          with us.
+        </p>
+        <button class="closing-button">CALL TO ACTION</button>
+      </div>
+    </section>
+    <!-- Closing Section Start -->
+  </main>
+  <!-- Main Section End -->
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="./assets/logo.webp" alt="Footer Logo">
+      </div>
+      <div class="footerlink">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <p>©2023 Muhammad Thoriq Ali Said</p>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+</body>
+
 </html>
