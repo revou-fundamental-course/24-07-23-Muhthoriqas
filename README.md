@@ -51,6 +51,7 @@
 <!-- Screenshots -->
 ### :camera: Screenshots
 ![travelangecy](https://github.com/revou-fundamental-course/24-07-23-Muhthoriqas/assets/72277295/cbb7f14a-19ae-49af-93a0-251269b99b0d)
+![lighthouse home](https://github.com/revou-fundamental-course/24-07-23-Muhthoriqas/assets/72277295/9e4c0fd9-3bd9-4667-8290-d34f68b19124)
 
 <!-- TechStack -->
 ### :space_invader: Tech Stack
@@ -84,8 +85,6 @@ Follow this step to run this repostory code in your local device:
 
 <!-- Contributing -->
 ## :wave: Contributing
-
-<h5>Contributtor in this repostory:</h5>
   
 Contributions are always welcome!
 All types of contributions are encouraged and valued. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
