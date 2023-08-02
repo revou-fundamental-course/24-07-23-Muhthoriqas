@@ -51,7 +51,8 @@
 <!-- Screenshots -->
 ### :camera: Screenshots
 ![travelangecy](https://github.com/revou-fundamental-course/24-07-23-Muhthoriqas/assets/72277295/cbb7f14a-19ae-49af-93a0-251269b99b0d)
-![lighthouse home](https://github.com/revou-fundamental-course/24-07-23-Muhthoriqas/assets/72277295/9e4c0fd9-3bd9-4667-8290-d34f68b19124)
+![lighthouse home](https://github.com/revou-fundamental-course/24-07-23-Muhthoriqas/assets/72277295/1b4aaafd-96c0-4643-8325-14c0d9f47e35)
+
 
 <!-- TechStack -->
 ### :space_invader: Tech Stack
